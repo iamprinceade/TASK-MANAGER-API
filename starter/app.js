@@ -21,7 +21,7 @@ const port = process.env.PORT || 3000;
 
 const start = async () => {
     try {
-        await connectDB('mongodb+srv://m0ham3d199t:PaJuOle8MOwwfVuK@mohamed.iq9andl.mongodb.net/socialWiseDB')
+        await connectDB('mongoDB account')
         app.listen(port, console.log(`Server is listening on port ${port}...`)
         );
     } catch (error)     {
